@@ -1,0 +1,5 @@
+@model ProjectDesign.WebSite.Models.BasePartialComponent;
+@{
+    string prefix = string.IsNullOrWhiteSpace(Model.PrefixElementName) ? string.Empty : Model.PrefixElementName;
+}
+<h1>@prefix</h1>

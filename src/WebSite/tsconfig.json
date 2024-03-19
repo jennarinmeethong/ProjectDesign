@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "outDir": "./wwwroot/lib",
+  },
+  // "files": [
+  //   "Scripts/App.ts"
+  // ],
+  "include": [
+    "Scripts/**/*"
+  ],
+}
